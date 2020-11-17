@@ -10,7 +10,7 @@ a {
 header {
     height: 50px;
     width: 100%;
-    background-color: rgb(247, 165, 165);
+    background-color: rgb(228, 188, 102);
     position: fixed;
     top: 0px;
     z-index: 10;
@@ -35,20 +35,20 @@ header {
 }
 
 .main-section {
-    padding: 100px 0 100px 0;
-    background-image: url(https://image.freepik.com/free-photo/table-with-vegetables_1112-361.jpg);
+    padding: 150px 0 100px 0;
+    background-image: url(https://image.freepik.com/free-photo/copy-space-flowers-pots_23-2148672686.jpg);
     background-size: cover;
     color: white;
-    text-align: center;
+}
+
+.main-section h1 {
+    font-size: 50px;
 }
 
 .category-section {
-    height: 500px;
+    height: 450px;
     text-align: center;
-}
-
-.category-section h3 {
-    padding-top: 20px;
+    padding: 10px 0px;
 }
 
 .category {
@@ -71,8 +71,9 @@ img:hover {
 
 .tutorial-section {
     height: 200px;
-    background-color: rgba(157, 141, 243, 0.301);
+    background-color: rgb(219, 219, 168);
     text-align: center;
+    padding: 10px 0px 50px 0px;
 }
 
 .tutorial {
@@ -81,37 +82,39 @@ img:hover {
 }
 
 .contact-form {
-    padding-top: 100px;
-    background-color: beige;
+    padding: 10px 0px 30px 0px;
+    background-color: white;
 }
 
 input,
 textarea {
     width: 400px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
     font-size: 12px;
     border: 1px solid #dee7ec;
 }
 
 .contact-submit {
-    background-color: #add6ec;
-    color: #4b92bb;
+    background-color: #e9f090;
+    color: #b3874d;
     text-align: center;
+    width: 100px;
 }
 
 footer {
-    height: 60px;
+    height: 50px;
     width: 100%;
-    background-color: rgb(247, 165, 165);
+    background-color: rgb(228, 188, 102);
+    padding: 10px 0px;
 }
 
 .footer-media li {
-    height: 50px;
+    height: 30px;
     float: left;
     color: black;
     display: block;
     list-style: none;
-    padding: 20px 20px;
+    padding: 0px 20px;
 }
