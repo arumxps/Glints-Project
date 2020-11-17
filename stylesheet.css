@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: "Trebuchet MS";
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(247, 165, 165);
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right li {
+    float: right;
+    color: black;
+    display: block;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.container {
+    width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.main-section {
+    padding: 100px 0 100px 0;
+    background-image: url(https://image.freepik.com/free-photo/table-with-vegetables_1112-361.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.category-section {
+    height: 500px;
+    text-align: center;
+}
+
+.category-section h3 {
+    padding-top: 20px;
+}
+
+.category {
+    float: left;
+    width: 25%;
+}
+
+img {
+    position: relative;
+}
+
+img:hover {
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.category p {
+    width: 90%;
+    display: inline-block;
+}
+
+.tutorial-section {
+    height: 200px;
+    background-color: rgba(157, 141, 243, 0.301);
+    text-align: center;
+}
+
+.tutorial {
+    float: left;
+    width: 25%;
+}
+
+.contact-form {
+    padding-top: 100px;
+    background-color: beige;
+}
+
+input,
+textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 12px;
+    border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+    background-color: #add6ec;
+    color: #4b92bb;
+    text-align: center;
+}
+
+footer {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(247, 165, 165);
+}
+
+.footer-media li {
+    height: 50px;
+    float: left;
+    color: black;
+    display: block;
+    list-style: none;
+    padding: 20px 20px;
+}
