@@ -1,0 +1,12 @@
+@media all and (max-width: 500px) {
+
+  .header-left {
+    float:none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+}
