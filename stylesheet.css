@@ -175,12 +175,12 @@ footer {
     color: white;
 }
 
-.fab {
+.fab, .fas {
     margin-right: 5px;
     cursor: pointer;
 }
 
-.fab:hover {
+.fab:hover, fas:hover {
     color: rgb(165, 101, 42);
 }
 
