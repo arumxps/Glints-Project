@@ -58,6 +58,15 @@ header {
     display: inline-block;
 }
 
+.fas {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.fas:hover {
+    color: rgb(165, 101, 42);
+}
+
 /* END HEADER */
 /* START MAIN-SECTION */
 
@@ -175,12 +184,12 @@ footer {
     color: white;
 }
 
-.fab, .fas {
+.fab {
     margin-right: 5px;
     cursor: pointer;
 }
 
-.fab:hover, fas:hover {
+.fab:hover {
     color: rgb(165, 101, 42);
 }
 
