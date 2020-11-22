@@ -55,16 +55,7 @@ header {
     margin: 0px 10px;
     color: black;
     float: right;
-    display: inline-block;
-}
-
-.fas {
-    margin-right: 5px;
-    cursor: pointer;
-}
-
-.fas:hover {
-    color: rgb(165, 101, 42);
+    display: block;
 }
 
 /* END HEADER */
@@ -184,12 +175,14 @@ footer {
     color: white;
 }
 
-.fab {
+.fab,
+.fas {
     margin-right: 5px;
     cursor: pointer;
 }
 
-.fab:hover {
+.fab:hover,
+.fas:hover {
     color: rgb(165, 101, 42);
 }
 
