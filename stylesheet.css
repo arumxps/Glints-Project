@@ -1,9 +1,24 @@
 * {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-decoration: none;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    /*font-family: "Trebuchet MS";*/
+  }
+
+a {
+    color: rgb(165, 101, 42);
+}
+
+a:hover {
+    color: black;
+}
+
+.container {
+    width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
 }
 
 header,
@@ -15,128 +30,166 @@ article {
   display: block;
 }
 
+/* START HEADER */
+
 header {
-    overflow: hidden;
     line-height: 50px;
     width: 100%;
     text-align: center;
     background-color: rgb(228, 188, 102);
     position: fixed;
     z-index: 10;
-    opacity: 0.8;
-    padding: 0 10px;
-    border: 3px solid #000;
 }
 
 .header-left {
     float: left;
-    text-align: center;
-    border: 1px solid purple;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-
-.header-right li {
-    border: 3px solid #000;
-    color: black;
-    float: right;
-    display: block;
-}
-
-.container {
-    width: 1200px;
-    padding: 0px 15px;
-    margin: 0 auto;
-}
-
-.main-section {
-    padding: 150px 0 100px 0;
-    background-image: url(https://image.freepik.com/free-photo/copy-space-flowers-pots_23-2148672686.jpg);
-    background-size: cover;
+.header-left span {
     color: white;
 }
 
+.header-right li {
+    margin: 0px 10px;
+    color: black;
+    float: right;
+    display: inline-block;
+}
+
+/* END HEADER */
+/* START MAIN-SECTION */
+
+.main-section {
+    padding: 120px 0 90px 0;
+    /* background-image: url(https://image.freepik.com/free-photo/copy-space-flowers-pots_23-2148672686.jpg);
+    background-size: cover; */
+    background-color: #e9f090;
+}
+ 
 .main-section h1 {
     font-size: 50px;
 }
 
+/* END MAIN-SECTION */
+/* START CATEGORY SECTION */
+
 .category-section {
-    height: 450px;
+    height: 470px;
     text-align: center;
-    padding: 10px 0px;
+    padding: 20px 0px;
 }
 
+.section-title {
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: left;
+}
+  
 .category {
     float: left;
     width: 25%;
-}
-
-
-.category {
     position: relative;
 }
-
+  
 img:hover {
     box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.5);
 }
 
-.category p {
-    width: 90%;
-    display: inline-block;
+.category-icon {
+    margin: 5px;
 }
+
+.category-txt {
+    width: 80%;
+    display: inline-block;
+    margin: 10px 0px;
+}
+
+/* END CATEGORY-SECTION */
+/* START TUTORIAL-SECTION */
 
 .tutorial-section {
-    height: 200px;
-    background-color: rgb(219, 219, 168);
+    height: 250px;
+    background-color: #e9f090;
     text-align: center;
-    padding: 10px 0px 50px 0px;
+    padding: 20px 0px;
 }
-
+  
 .tutorial {
     float: left;
     width: 25%;
 }
 
-.contact-form {
-    padding: 10px 0px 30px 0px;
-    background-color: white;
-}
+/* END TUTORIAL-SECTION */
+/* START CONTACT-FORM */
 
+.contact-form {
+    height: 380px;
+    padding: 20px 0px;
+}
+  
 input,
 textarea {
     width: 400px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 10px;
     padding: 10px;
     font-size: 12px;
     border: 1px solid #dee7ec;
+    border-radius: 20px;
 }
-
+  
 .contact-submit {
     background-color: #e9f090;
+    border: none;
     color: #b3874d;
     text-align: center;
     width: 100px;
     cursor: pointer;
 }
 
+.contact-submit:hover {
+    color: white;
+    background-color: rgb(165, 101, 42);
+}
+
+/* END CONTACT-FORM */
+/* START FOOTER */
+
 footer {
     position: absolute;
-    height: 50px;
+    height: 40px;
     width: 100%;
     background-color: rgb(228, 188, 102);
-    padding: 10px 0px;
+}
+  
+.footer-left {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 0px;
+}
+
+.footer-left span {
+    color: white;
 }
 
 .fab {
-  color: #000;
-  margin-right: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.fab:hover {
+    color: rgb(165, 101, 42);
 }
 
 .footer-media li {
-    height: 30px;
-    float: left;
+    float: right;
     color: black;
     display: block;
     list-style: none;
-    padding: 0px 20px;
+    margin: 10px 10px;
 }
+
+/* END FOOTER */
