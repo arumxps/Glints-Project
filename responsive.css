@@ -1,45 +1,10 @@
-/* @media all and (max-width: 500px) {
-
-    .header-left {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-  
-    .header-right {
-      float: none;
-    }
-  } */
-  
-/* SMARTPHONE */
-
-@media all and (max-width: 670px) {
-    .container {
-        width: 200px;
-    }
-    
-    .category {
-        width: 100%;
-    }
-
-    h1 {
-        color: blue;
-    }
-}
-
 /* TABLET */
 
 @media(max-width: 1000px) {
     .container {
         width: 670px;
     }
-
-    h1 {
-        color: green;
-    }
-
-    /* TABLET main-section */
-
+    
     /* TABLET category-section */
     .category-section {
         height: 870px;
@@ -59,12 +24,40 @@
 
     /* TABLET tutorial-section */    
     .tutorial-section {
-        height: 280px;
+        height: 270px;
+        text-align: center;
+        padding: 20px 0px;
+    }
+}
+
+/* SMARTPHONE */
+
+@media(max-width: 670px) {
+    .container {
+        width: 450px;
+    }
+
+    /* SMARTPHONE category-section */
+    .category-section {
+        height: 1350px;
         text-align: center;
         padding: 20px 0px;
     }
 
-    /* TABLET contact-form */
+    .category, .tutorial {
+        width: 100%;
+    }
 
+    .category-txt {
+        width: 75%;
+        display: inline-block;
+        margin: 10px 0px;
+    }
 
+    /* SMARTPHONE tutorial-section */    
+    .tutorial-section {
+        height: 390px;
+        text-align: center;
+        padding: 20px 0px;
+    }
 }
