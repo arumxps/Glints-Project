@@ -5,6 +5,11 @@
         width: 670px;
     }
 
+    /* TABLET main-section */
+    .main-section h1 {
+        font-size: 40px;
+    }
+
     /* TABLET category-section */
     .category-section {
         height: 870px;
@@ -46,6 +51,11 @@
         display: block;
     }
 
+    /* SMARTPHONE main-section */
+    .main-section h1 {
+        font-size: 40px;
+    }
+
     /* SMARTPHONE category-section */
     .category-section {
         height: 1350px;
@@ -68,5 +78,10 @@
         height: 390px;
         text-align: center;
         padding: 20px 0px;
+    }
+
+    /* SMARTPHONE footer */
+    .footer-media a {
+        display: none;
     }
 }
