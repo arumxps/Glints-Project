@@ -4,7 +4,7 @@
     .container {
         width: 670px;
     }
-    
+
     /* TABLET category-section */
     .category-section {
         height: 870px;
@@ -35,6 +35,15 @@
 @media(max-width: 670px) {
     .container {
         width: 450px;
+    }
+
+    /* SMARTPHONE header */
+    .header-right {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
     }
 
     /* SMARTPHONE category-section */
