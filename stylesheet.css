@@ -21,6 +21,10 @@ a:hover {
     margin: 0 auto;
 }
 
+.clear {
+    clear: left;
+  }  
+
 header,
 nav,
 section,
@@ -63,9 +67,9 @@ header {
 
 .main-section {
     padding: 120px 0 90px 0;
-    /* background-image: url(https://image.freepik.com/free-photo/copy-space-flowers-pots_23-2148672686.jpg);
-    background-size: cover; */
+    /* background-image: url(https://image.freepik.com/free-photo/copy-space-flowers-pots_23-2148672686.jpg); */
     background-color: #e9f090;
+    width: 100%;
 }
  
 .main-section h1 {
