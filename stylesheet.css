@@ -62,6 +62,14 @@ header {
     display: block;
 }
 
+.menu-icon {
+    color: black;
+    float: right;
+    font-size: 20px;
+    margin: 15px 0px;
+    display: none;
+}
+
 /* END HEADER */
 /* START MAIN-SECTION */
 
@@ -180,13 +188,15 @@ footer {
 }
 
 .fab,
-.fas {
+.fas,
+.fa {
     margin-right: 5px;
     cursor: pointer;
 }
 
 .fab:hover,
-.fas:hover {
+.fas:hover,
+.fa:hover {
     color: rgb(165, 101, 42);
 }
 
